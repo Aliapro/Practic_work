@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  color:white;
+  background-color: #1e1e1e;
+  background-image: url(https://static.pexels.com/photos/8395/lights-night-unsharp-blured.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  color: #FFF;
+  padding-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 550px;
+  height: 40px;
+  margin: 40px auto;
+  background-color: rgba(23,23,50,.7);
+  text-align: center;
+  border-radius: 4px;
+}
+.main > li {
+  margin: 0 1%;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: #FFE;
+  text-transform: capitalize;
+  font-family: monospace;
+  display: block;
+  padding: 10px 5px;
+  font-size: 16px;
+  transition: background-color .5s ease-in-out;
+}
+
+a:hover {
+  background-color: #631818;
+}
+
+.drop li {
+  opacity: 0;
+  transform-origin: top center;
+}
+
+.drop li a {
+  background-color: rgba(23,23,50,.7);
+  padding: 10px 0;
+}
+
+/*------------- menu1 animation -------------------*/
+
+.main li:hover .menu1 li:first-of-type {
+  animation: menu1 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu1 li:nth-of-type(2) {
+  animation: menu1 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu1 li:nth-of-type(3) {
+  animation: menu1 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu1 li:last-of-type {
+  animation: menu1 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu1 {
+  from {
+    opacity: 0;
+    transform: translateX(30px) rotateY(90deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) rotateY(0);
+  }
+}
+
+/*------------- menu2 animation -------------------*/
+
+.main li:hover .menu2 li:first-of-type {
+  animation: menu2 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu2 li:nth-of-type(2) {
+  animation: menu2 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu2 li:nth-of-type(3) {
+  animation: menu2 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu2 li:last-of-type {
+  animation: menu2 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu2 {
+  0% {
+    opacity: 0;
+    transform: scale(.7);
+  }
+  50% {
+    opacity: .5;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/*------------- menu3 animation -------------------*/
+
+.main li:hover .menu3 li:first-of-type {
+  animation: menu3 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu3 li:nth-of-type(2) {
+  animation: menu3 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu3 li:nth-of-type(3) {
+  animation: menu3 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu3 li:last-of-type {
+  animation: menu3 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu3 {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*------------- menu4 animation -------------------*/
+
+.main li:hover .menu4 li:first-of-type {
+  animation: menu4 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu4 li:nth-of-type(2) {
+  animation: menu4 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu4 li:nth-of-type(3) {
+  animation: menu4 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu4 li:last-of-type {
+  animation: menu4 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu4 {
+  0% {
+    opacity: 0;
+    transform: translateX(50px) rotate(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+  }
+}
+
+/*------------- menu5 animation -------------------*/
+
+.main li:hover .menu5 li:first-of-type {
+  animation: menu5 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu5 li:nth-of-type(2) {
+  animation: menu5 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu5 li:nth-of-type(3) {
+  animation: menu5 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu5 li:last-of-type {
+  animation: menu5 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu5 {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+/* my button style */
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: relative;
+  left: 10px;
+  bottom: 15px;
+  size: 80px;
+  font-family: sans-serif;
+  width: 150px;
+}
+
+.white-mode:hover {
+  background-color: #FFF;
+  color: #122;
+}
+p{
+  display: grid;
+     left: 100px;
+     right: 100px;
+     text-align: center;
+     margin-top: 5em;
+}
+.text{
+  font-size: 25px;
+  color: #ffff;
+  position: relative;
+  top: 30px;
+  border-top-style: dashed;
+  border-top-width: 2px;
+  width: auto;
+  min-width: 600px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  box-shadow: 5px 4px 5px rgba(0,0,0,0.6); 
+}
+.arrow{
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: relative;
+  left: 1746px;
+  bottom: 15px;
+  size: 80px;
+  font-family: sans-serif;
+  width: 79px;
+}
